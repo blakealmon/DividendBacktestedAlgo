@@ -1,0 +1,2 @@
+# DividendBacktestedAlgo
+ dividend strat
