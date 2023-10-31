@@ -8,7 +8,7 @@ dateFormatted = ['2023-01-02', '2023-01-03', '2023-01-04', '2023-01-05', '2023-0
 dateX = 0
 
 #len(dateFormatted)
-for x in range(len(dateFormatted)):
+for x in range(6):
 
     date = "2023-09-01"
 
@@ -39,7 +39,7 @@ for x in range(len(dateFormatted)):
 
            if('volume' in jsonObjDaily):
 
-                if(jsonObjDaily['volume'] > 10000):
+                if(jsonObjDaily['volume'] > 250000):
 
                  gainValue = jsonObjDaily['open'] - jsonObjDaily['close']
     
@@ -67,7 +67,7 @@ for x in range(len(dateFormatted)):
 
         stringTotalPercent = str(totalPercent)
 
-        f = open("dividenBacktestAlgo/dividendAlgo.txt", "a")
+        f = open("DividendBacktestedAlgo/dividendAlgo.txt", "a")
         f.write(stringTotalPercent + "%\n")
         f.close()
 
