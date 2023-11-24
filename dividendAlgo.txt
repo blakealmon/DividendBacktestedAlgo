@@ -185,8 +185,7 @@ First BackTest [Just short on all dividends where volume > 10,000]
 2023-09-28 : -0.6117263610642909 
 2023-09-29 : 0.4641609084102076 
 2023-10-02 : 0.4067093926527536 
-Second Backtest []
-first : 
+
 
 
 
